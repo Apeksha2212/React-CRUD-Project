@@ -1,15 +1,9 @@
+import UserPages from './componet/pages/UserPages';
 
-import './App.css';
-import Userform from './componet/forms/Userform';
-
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>CRUDE OPRATIONS</h1>
-     <Userform/>
+    <div style={{ padding: 20 }}>
+    <UserPages/>
     </div>
   );
 }
-
-export default App;
